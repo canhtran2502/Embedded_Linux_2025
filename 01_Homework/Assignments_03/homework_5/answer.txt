@@ -1,0 +1,5 @@
+1. Orphan process:
+- Là tiến trình con đang chạy nhưng tiến trình cha đã kết thúc trước. Do đó được tiến trình khác nhận nuôi.
+
+2. Zombie process:
+- Là tiến trình con đang chạy nhưng kết thúc trước khi tiến trình cha kịp gọi ra hàm wait(), dẫn đến tạo ra tiến trình zombie.
