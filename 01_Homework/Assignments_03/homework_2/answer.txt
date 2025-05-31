@@ -1,0 +1,2 @@
+Khi gọi execlp() hay execvp() trong tiến trình ban đầu, thì chương trình ban đầu sẽ được thay thế hoàn toàn bằng chương trình mới.
+Tất cả những dòng code sau dòng exec sẽ không được thực thi khi exec thành công.
