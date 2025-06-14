@@ -1,0 +1,11 @@
+1. Sử dụng hàm pthread_create: Dùng để tạo thread.
+- Đối số thứ 1: pthread_t: pointer lưu trữ thread id.
+- Đối số thứ 2: thread attribute: thường là NULL.
+- Đối số thứ 3: function mà thread thực thi.
+- Đối số thứ 4: Tham số truyền vào cho hàm ở đối số thứ 3.
+
+2. Sử dụng hàm pthread_join: Dùng để chờ thread hoàn thành.
+- Đối số thứ 1: Thread ID đang cần chờ.
+- Đối số thứ 2: Pointer lưu giá trị trả về của thread.
+
+3. Thread kết thúc khi thực hiện xong hàm (tham số thứ 3 của pthread_create), và trả về giá trị.

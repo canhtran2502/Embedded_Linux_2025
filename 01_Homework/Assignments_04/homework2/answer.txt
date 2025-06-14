@@ -1,0 +1,1 @@
+Nếu không sử dụng mutex, thì giá trị của biến counter sẽ không bằng 1.000.000 x 3 = 3.000.000 lần. Vì bị conflict resource.
