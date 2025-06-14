@@ -1,0 +1,1 @@
+Nếu bỏ qua SIGINT, khi nhấn Ctrl+C, chương trình sẽ nhận tín hiệu và dừng process ngay lập tức, chương trình kết thúc.

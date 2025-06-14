@@ -1,0 +1,2 @@
+Nếu không set alarm(1) trong hàm xử lí, thì khi xảy ra tín hiệu SIGALRM lần đầu tiên, sẽ không có tín hiệu SIGALRM nữa.
+-> timer counter sẽ không đếm được tới 10 giây, chương trình sẽ bị đứng.

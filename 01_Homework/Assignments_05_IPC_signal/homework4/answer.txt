@@ -1,0 +1,2 @@
+Nếu không xử lý tín hiệu SIGTSTP, khi người dùng nhấn Ctrl+Z: Hệ thống sẽ gửi tín hiệu SIGTSTP đến process, và tạm dừng process.
+Process này sẽ không tiếp tục nếu không có tín hiệu tiếp tục (SIGCONT - thường sử dụng fg để đưa process trở lại foreground).

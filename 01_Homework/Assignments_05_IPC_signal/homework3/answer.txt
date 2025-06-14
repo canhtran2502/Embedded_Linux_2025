@@ -1,0 +1,4 @@
+Cần sử dụng kill() vì hàm kill() không chỉ dùng để kết thúc process, mà còn dùng để gửi signal.
+Trong bài này mình đã sử dụng kill để gửi 2 tín hiệu.
+1. Tín hiệu SIGUSR1 đến child process để gọi hàm handle in ra dòng nhận tín hiệu từ parent.
+2. Tín hiện SIGKILL để kết thúc process con khi parent đã gửi 5 signals.
